@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+}
+
+.caja-1 {
+    background-image: url('../images/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.caja-1 h1 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.caja-2 {
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 3px solid #00796b;
+    text-align: justify;
+    box-shadow: 5px 5px 15px rgba(0, 121, 107, 0.3);
+}
+
+.caja-2 p {
+    color: #00796b;
+    font-size: 20px;
+    line-height: 1.8;
+    text-indent: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.caja-3 {
+    background-image: url('../images/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 3px solid #ff8a65;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(255, 138, 101, 0.3);
+}
+
+.caja-3 p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-transform: capitalize;
+    white-space: pre-line;
+    text-shadow: 3px 3px 6px rgba(255, 138, 101, 0.7);
+    background: rgba(255, 138, 101, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
